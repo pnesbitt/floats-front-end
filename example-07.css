@@ -10,19 +10,41 @@
 	margin: 0 auto;
 }
 
+.header {
+    float: left;
+    width: 100%;
+}
 
-.header {}
+.logo {
+    float: left;
+    width: 25%;
+}
 
-.logo {}
+.navigation {
+    float: right;
+    width: 70%;
+}
 
-.navigation {}
+.sidebar {
+    float: left;
+    width: 25%;
+}
 
-.sidebar {}
+.main-content {
+    float: left;
+    width: 100%;
+}
 
-.main-content {}
+.sub-content {
+    float: right;
+    width: 70%;
+}
 
-.sub-content {}
+.sub-content-2 {
+    float: right;
+    width: 70%;
+}
 
-.sub-content-2 {}
-
-.footer {}
+.footer {
+    clear: both;
+}
