@@ -12,9 +12,17 @@
 
 
 .main-content {
-    float: left;
+    
 }
 /* hint! what do you need to add here? */
+
+.main-content:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
 
 .widget {
     float: left;

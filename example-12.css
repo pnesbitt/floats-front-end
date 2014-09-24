@@ -6,23 +6,36 @@
 /* Example 12 */
 
 /* To Do List */
-.todolist {}
+.todolist {
+
+}
 
 /* Individual Todo */
-.todo {}
+.todo {
 
+}
 
 /* Priority icon dot */
-.icon {}
+.icon {
+
+}
 
 /* Info of the todo, title and date */
-.todo-info {}
+.todo-info {
+
+}
 
 /* Title */
-.todo-title {}
+.todo-title {
+
+}
 
 /* Date */
-.todo-date {}
+.todo-date {
+
+}
 
 /* Checkboxes! */
-input[type=checkbox] {}
+input[type=checkbox] {
+
+}
