@@ -12,8 +12,15 @@
 
 
 .header {
-    float: left;
     width: 984px;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 /* hint! you have to contain the floated children elements. */
 

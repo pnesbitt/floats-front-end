@@ -11,8 +11,15 @@
 }
 
 .header {
-    float: left;
     width: 984px;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 /* hint! what do you have to add here? */
 
@@ -31,8 +38,15 @@
 }
 
 .main-content {
-    float: left;
     width: 984px;
+}
+
+.main-content:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 /* hint! you have to contain the floated children elements. */
 

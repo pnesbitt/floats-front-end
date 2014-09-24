@@ -11,8 +11,15 @@
 }
 
 .header {
-    float: left;
     width: 100%;
+}
+
+.header:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
 .logo {
@@ -31,8 +38,15 @@
 }
 
 .main-content {
-    float: left;
     width: 100%;
+}
+
+.main-content:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
 }
 
 .sub-content {
