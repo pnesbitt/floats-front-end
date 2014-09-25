@@ -5,34 +5,65 @@
 
 /* Example 12 */
 
+div {
+    /* border: 1px solid black; */
+}
+
 /* To Do List */
 .todolist {
 
 }
 
+.todolist:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
 /* Individual Todo */
 .todo {
+    margin: auto;
+    width: 95%;
+}
 
+.todo:after {
+    margin: auto;
+    background: #333;
+    height: 1px;
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
 }
 
 /* Priority icon dot */
 .icon {
-
+    float: left;
+    padding-bottom: 50px;
 }
 
 /* Info of the todo, title and date */
 .todo-info {
-
+    float: left;
 }
 
 /* Title */
 .todo-title {
-
+    float: left;
+    font-size: 45px;
 }
 
 /* Date */
 .todo-date {
+    float: left;
+    clear: both;
+}
 
+.check {
+    float: right;
+    padding-top: 40px;
 }
 
 /* Checkboxes! */
