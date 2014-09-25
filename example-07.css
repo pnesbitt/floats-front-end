@@ -6,7 +6,7 @@
 /* Example 07 */
 
 .container {
-	width: 1024px; /* change me to a percentage width, like 80% */
+	width: 80%; /* change me to a percentage width, like 80% */
 	margin: 0 auto;
 }
 
